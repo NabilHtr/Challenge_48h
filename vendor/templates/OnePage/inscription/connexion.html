@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connexion</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <h1>Connexion</h1>
+        <div class="container">
+            <div class="sign-up-content">
+                <form method="POST" class="signup-form">
+                    <h2 class="form-title">Quel type d'utilisateur êtes-vous ?</h2>
+                    <div class="form-radio"style="padding-left:2em">
+                        <input type="radio" name="member_level" value="newbie" id="newbie" checked="checked" />
+                        <label for="newbie">Organisateur</label>
+
+                        <input type="radio" name="member_level" value="average" id="average" />
+                        <label for="average">Participant</label>
+                    </div>
+
+                    <div class="form-textbox">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+
+                    <div class="form-textbox">
+                        <label for="pass">Mot de passe</label>
+                        <input type="password" name="pass" id="pass" />
+                    </div>
+
+                    <div class="form-textbox">
+                        <input type="submit" name="submit" id="submit" class="login" value="Connexion" />
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
